@@ -148,3 +148,6 @@ dictquest7 = {
     "14": "poezję",
     "15": "inne, jakie?",
 }
+imienazwisko = input("pytanie: Jak masz na imię i nazwisko?\n")
+print("odpowiedź: ", imienazwisko.title())
+odp1 = input("pytanie: W jakich okolicznościach czytasz książki najczęściej?")
