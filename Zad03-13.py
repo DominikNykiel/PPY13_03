@@ -150,4 +150,52 @@ dictquest7 = {
 }
 imienazwisko = input("pytanie: Jak masz na imię i nazwisko?\n")
 print("odpowiedź: ", imienazwisko.title())
-odp1 = input("pytanie: W jakich okolicznościach czytasz książki najczęściej?")
+
+print("pytanie: Najczęstszym sposobem spędzania wolnego czasu jest dla Ciebie:\n ")
+
+for keys,values in dictquest1.items():
+    print(keys)
+    print(values)
+
+odp1 = input()
+
+while (dictquest1.get(odp1) == None):
+    odp1 = input("Ponownie wprowadz odpowiedż:\n")
+print("odpowiedź: ", dictquest1.get(odp1))
+
+print("pytanie: W jakich okolicznościach czytasz książki najczęściej?\n ")
+
+for keys,values in dictquest2.items():
+    print(keys)
+    print(values)
+
+odp2 = input()
+
+while (dictquest1.get(odp2) == None):
+    odp2 = input("Ponownie wprowadz odpowiedz:\n")
+print("odpowiedź: ", dictquest2.get(odp2))
+
+print("pytanie: 3 Jeżeli spędzasz czas wolny czytając książki, jaki jest główny powód takiego wyboru? \n")
+
+for keys,values in dictquest3.items():
+    print(keys)
+    print(values)
+
+odp3 = input()
+
+while (dictquest1.get(odp3) == None):
+    odp3 = input("Ponownie wprowadz odpowiedz:\n")
+print("odpowiedź: ", dictquest3.get(odp3))
+
+print("pytanie: Po książki w jakiej formie sięgasz najczęściej?\n ")
+
+for keys,values in dictquest4.items():
+    print(keys)
+    print(values)
+
+odp4 = input()
+
+while (dictquest1.get(odp4) == None):
+    odp4 = input("Ponownie wprowadz odpowiedz:\n")
+print("odpowiedź: ", dictquest4.get(odp4))
+
